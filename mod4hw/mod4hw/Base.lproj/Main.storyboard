@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="mod4hw" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0hl-2a-YSH">
+                                <rect key="frame" x="0.0" y="-8" width="393" height="860"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ISX-aY-WO9">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="832"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="INX-Um-Ac5">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="166.33333333333334"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Plk-tW-HeU">
+                                        <rect key="frame" x="0.0" y="166.33333333333331" width="393" height="166.33333333333331"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wed, 28 Dec 2022 14:59:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9M-wY-YHl">
+                                                <rect key="frame" x="72.333333333333329" y="0.0" width="248.66666666666669" height="166.33333333333334"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FwQ-eu-PT5">
+                                        <rect key="frame" x="0.0" y="332.66666666666669" width="393" height="166.66666666666669"/>
+                                        <subviews>
+                                            <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="countDownTimer" minuteInterval="1" useCurrentDate="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6z1-xM-ZrU">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="166.66666666666666"/>
+                                            </datePicker>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="M1d-BB-Odd">
+                                        <rect key="frame" x="0.0" y="499.33333333333331" width="393" height="166.33333333333331"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GSD-Qi-3j8">
+                                                <rect key="frame" x="36.666666666666657" y="0.0" width="320" height="83"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Wpi-ot-SmD">
+                                                <rect key="frame" x="71.666666666666686" y="83.000000000000057" width="250" height="83.333333333333314"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="P0g-Qy-X4a">
+                                                        <rect key="frame" x="0.0" y="22.666666666666629" width="250" height="38"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nu7-z7-w0Q">
+                                                                <rect key="frame" x="0.0" y="0.0" width="250" height="38"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="250" id="YRw-gd-xfi"/>
+                                                                </constraints>
+                                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <state key="normal" title="Button"/>
+                                                                <buttonConfiguration key="configuration" style="plain" title="Start Timer / Stop Music">
+                                                                    <fontDescription key="titleFontDescription" type="system" pointSize="20"/>
+                                                                </buttonConfiguration>
+                                                                <connections>
+                                                                    <action selector="startStopTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ANp-YS-rzp"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="YXr-5W-NXB">
+                                        <rect key="frame" x="0.0" y="665.66666666666663" width="393" height="166.33333333333337"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="k2g-ij-e8s">
+                                                <rect key="frame" x="0.0" y="0.0" width="393" height="83"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time Remaining: 00:00:00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LoH-Nl-rgb">
+                                                        <rect key="frame" x="96.000000000000014" y="0.0" width="201.33333333333337" height="83"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="k3q-LL-OT9">
+                                                <rect key="frame" x="0.0" y="83" width="393" height="83.333333333333314"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0hl-2a-YSH" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="3Q5-lg-3yl"/>
+                            <constraint firstItem="0hl-2a-YSH" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BtH-X9-NUA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0hl-2a-YSH" secondAttribute="bottom" id="C8G-V6-bxV"/>
+                            <constraint firstAttribute="bottom" secondItem="ISX-aY-WO9" secondAttribute="bottom" id="O3v-AV-a08"/>
+                            <constraint firstItem="ISX-aY-WO9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qso-bG-Scf"/>
+                            <constraint firstItem="ISX-aY-WO9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="20" id="Tds-Xa-uai"/>
+                            <constraint firstAttribute="bottom" secondItem="ISX-aY-WO9" secondAttribute="bottom" constant="20" id="aML-Qv-odC"/>
+                            <constraint firstItem="0hl-2a-YSH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hsl-g1-5SS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ISX-aY-WO9" secondAttribute="trailing" id="k9D-Ts-Stf"/>
+                            <constraint firstItem="ISX-aY-WO9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="sZB-3N-VG7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="0hl-2a-YSH" id="YfL-Db-qtJ"/>
+                        <outlet property="clockLabel" destination="V9M-wY-YHl" id="WKv-QQ-G6J"/>
+                        <outlet property="datePicker" destination="6z1-xM-ZrU" id="ZhV-gl-Y2O"/>
+                        <outlet property="startStopButton" destination="Nu7-z7-w0Q" id="D7v-25-q4a"/>
+                        <outlet property="timerLabel" destination="LoH-Nl-rgb" id="cme-wS-YjC"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-144.27480916030532" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
